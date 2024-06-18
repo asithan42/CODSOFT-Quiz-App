@@ -79,13 +79,14 @@ class _ResultScreenState extends State<ResultScreen> {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.white, backgroundColor: controlbtn,
+                  foregroundColor: Colors.white,
+                  backgroundColor: controlbtn,
                   elevation: 5,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(50),
                   ),
-                  padding: const EdgeInsets.symmetric(
-                      vertical: 15, horizontal: 20),
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                 ),
                 child: const Text(
                   "Select Next Level",
