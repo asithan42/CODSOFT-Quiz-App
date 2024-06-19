@@ -16,7 +16,7 @@ class LevelSelectionScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: mainColor,
         title: const Text(
-          "asitha sn",
+          "Quiz Game",
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: lettercolor,
